@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Thông tin khoản thu"
+        android:textColor="#ff00"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Tên loại thu"/>
+
+        <TextView
+            android:id="@+id/showloaithu_khoanthu"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ff2601fa"
+            android:layout_marginLeft="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Tên khoản thu"/>
+
+        <TextView
+            android:id="@+id/showten_khoanthu"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ff2601fa"
+            android:enabled="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Số lượng"/>
+
+        <TextView
+            android:id="@+id/showsoluong_khoanthu"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ff2601fa"
+            android:enabled="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Thời gian"/>
+
+        <TextView
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ff2601fa"
+            android:enabled="true"
+            android:id="@+id/showthoigian_khoanthu"
+            android:layout_marginLeft="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back_showthongtin_khoanthu"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="#ff5900"/>
+    </RelativeLayout>
+
+</LinearLayout>
