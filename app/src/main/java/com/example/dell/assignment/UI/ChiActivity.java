@@ -30,6 +30,7 @@ public class ChiActivity extends Fragment {
         viewPagerChi.setAdapter(adapter);
         tabLayoutChi.setupWithViewPager(viewPagerChi);
         return view;
+        //test
     }
 
 }

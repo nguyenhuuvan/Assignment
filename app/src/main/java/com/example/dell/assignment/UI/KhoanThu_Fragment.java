@@ -41,6 +41,7 @@ public class KhoanThu_Fragment extends Fragment implements OnItemEditListener, O
     ListView listViewKhoanthu;
     String tenloaithu1, tenloaithu2;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -199,7 +200,6 @@ public class KhoanThu_Fragment extends Fragment implements OnItemEditListener, O
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Cursor c = (Cursor) parent.getItemAtPosition(position);
                 tenloaithu2 = c.getString(1);
-
             }
 
             @Override
